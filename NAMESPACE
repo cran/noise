@@ -1,0 +1,8 @@
+export(computeIntrinsicNoise)
+export(computeExtrinsicNoise)
+export(simulateSC)
+export(computeExtrinsicNoiseKnownCor)
+export(computeNoiseForSubset)
+
+importFrom("preprocessCore", "normalize.quantiles")
+importFrom("stats", "cor", "rnorm", "sd")
